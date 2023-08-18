@@ -1,0 +1,105 @@
+
+
+.navbar
+{
+    position: sticky;
+}
+.nav-img
+{
+    margin-left: 20px;
+    margin-right: 520px;
+    height: 100px;
+    width: 150px;
+}
+.nav-item a
+{
+    margin:0px;
+    
+  }
+
+.container-fluid
+{
+    background-color: #806699;
+    margin: -8px;
+}
+#collection-img
+{
+    box-shadow: 2px 2px 5px 3px #333333;
+    border-radius: 15px;
+}
+
+
+/*banner section*/
+
+#banner
+{
+    background-color:  #595959;
+    color: #fff;
+    padding-top: 5%;
+}
+
+.promo-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+
+
+
+
+.img-fluid
+{
+  margin-top: -30px;
+  margin-bottom: 20px;
+}
+
+/*---service section---*/
+
+#services
+{
+    padding: 40px 0;
+}
+
+#services h1
+{
+    padding: 5px;
+    margin-top: 25px;
+    text-decoration: underline;
+}
+
+.rounded
+{
+    height: 300px;
+    margin: 0px auto;
+    box-shadow: 3px 3px 5px 3px black;
+    margin-bottom: 10px;
+    
+}
+
+.All-btns
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+.view-btn
+{
+   justify-content: space-evenly;
+}
+
+/*------nav-menu-----*/
+
+.nav-menu:hover
+{
+    text-decoration: underline;
+}
+
+/*---search section--*/
+
+#search-btn
+{
+    border: 1px solid black;
+    color: black;
+}
