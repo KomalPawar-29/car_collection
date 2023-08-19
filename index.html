@@ -40,6 +40,10 @@
               <li class="nav-item ">
                 <a class="nav-link nav-menu"  href="#">Contact Us</a>
               </li>
+              <li class="nav-item ">
+                <a class="nav-link nav-menu"  href="#">Log In</a>
+              </li>
+              
               
                
               
@@ -87,32 +91,109 @@
 
       <div class="container text-center">
         <div class="p-3 mb-2 bg-secondary text-white fs-2">Car_Collection</div>
+
         <!------Rolls Royce-->
 
-       <h3>Rolls-Royce</h3>
+      <div class="p-3 mb-2 bg-primary text-white" id="title-rolls-royce">Rolls Royce</div>
+
     
-      </section>
-       
-      
-    
+    </section>
+
+     
       <img src="./Image/rolls royce full-view.jpg" id="rolls-royce" class="rounded md-auto d-block" alt="...">
       <br/>
+    
       <div class="All-btns">
 
         <button type="button" class="btn btn-success view-btn" onclick="Frontview()">Front View</button>
         <button type="button" class="btn btn-danger view-btn" onclick="backview()">Back View</button>
-        <button type="button" class="btn btn-warning view-btn" onclick="inside()">Inside</button>
+        <button type="button" class="btn btn-warning view-btn" onclick="inside()">Interior view</button>
 
       </div>
 
-      <br/>
-
       
-
-
-
           
+
+      <!----BMW section-->
+      <section id="services">
+
+        <div class="container text-center">
+        <div class="p-3 mb-2 bg-primary text-white" id="title-rolls-royce">BMW</div>
+        </section>  
+        
+        <img src="./Image/BMW/bmw full img.jpg" id="BMW" class="rounded md-auto d-block" alt="...">
+      <br/>
+      <div class="All-btns">
+
+        <button type="button" class="btn btn-success view-btn" onclick="front_bmw()">Front View</button>
+        <button type="button" class="btn btn-danger view-btn" onclick=" back_bmw()">Back View</button>
+        <button type="button" class="btn btn-warning view-btn" onclick="inside_bmw ()">Interior view</button>
+
+      </div>
+
+      <!---Bugati- section--->
+
+     
+      <section id="services">
+
+        <div class="container text-center">
+        <div class="p-3 mb-2 bg-primary text-white" id="title-rolls-royce">Bugati</div>
+        </section>  
+        
+        <img src="./Image/BUGATI/bugati-full.jpg" id="Bugati" class="rounded md-auto d-block" alt="...">
+      <br/>
+      <div class="All-btns">
+
+        <button type="button" class="btn btn-success view-btn" onclick="front_bugati()">Front View</button>
+        <button type="button" class="btn btn-danger view-btn" onclick=" back_bugati()">Back View</button>
+        <button type="button" class="btn btn-warning view-btn" onclick="inside_bugati()">Interior view</button>
+
+      </div>
+
+      <!---lamborghini- section--->
+
+     
+      <section id="services">
+
+        <div class="container text-center">
+        <div class="p-3 mb-2 bg-primary text-white" id="title-rolls-royce">Lamborghini</div>
+        </section>  
+        
+        <img src="./Image/lamborghini/lamborghini-full.jpg" id="lamborghini" class="rounded md-auto d-block" alt="...">
+      <br/>
+      <div class="All-btns">
+
+        <button type="button" class="btn btn-success view-btn" onclick="front_lamborghini()">Front View</button>
+        <button type="button" class="btn btn-danger view-btn" onclick=" back_lamborghini()">Back View</button>
+        <button type="button" class="btn btn-warning view-btn" onclick="inside_lamborghini()">Interior view</button>
+
+      </div>
+
+        <!---toyota-section--->
+
+     
+      <section id="services">
+
+        <div class="container text-center">
+        <div class="p-3 mb-2 bg-primary text-white" id="title-rolls-royce">toyota</div>
+        </section>  
+       
+        <img src="./Image/toyota/toyota- full.jpg" id="toyota" class="rounded md-auto d-block" alt="...">
+      <br/>
+      <div class="All-btns">
+
+        <button type="button" class="btn btn-success view-btn" onclick="front_toyota()">Front View</button>
+        <button type="button" class="btn btn-danger view-btn" onclick=" back_toyota()">Back View</button>
+        <button type="button" class="btn btn-warning view-btn" onclick="inside_toyota()">Interior view</button>
+
+      </div>
+
+
+
         <script>
+
+          /* rolls royce */
+
           function backview()
           {
             const backview = document.getElementById('rolls-royce');
@@ -130,6 +211,92 @@
             const inside = document.getElementById('rolls-royce');
             inside.src="./Image/rolls royce seats view.jpeg";
           }
+
+          /* BMW */
+
+          function front_bmw()
+          {
+          const BMW_front = document.getElementById('BMW');
+          BMW_front.src= "./Image/BMW/BMW-front.jpg";
+          }
+
+          function back_bmw()
+          {
+          const BMW_back = document.getElementById('BMW');
+          BMW_back.src= "./Image/BMW/bmw-back.jpg";
+          }
+
+          function inside_bmw()
+          {
+          const BMW_inside = document.getElementById('BMW');
+          BMW_inside.src= "./Image/BMW/bmw-inside.jpg";
+          }
+
+          /*--Bugati--*/
+
+          function front_bugati()
+          {
+          const BMW_front = document.getElementById('Bugati');
+          BMW_front.src= "./Image/BUGATI/bugati-front.jpg";
+          }
+
+          function back_bugati()
+          {
+          const BMW_back = document.getElementById('Bugati');
+          BMW_back.src= "./Image/BUGATI/bugati-back.jpg";
+          }
+
+          function inside_bugati()
+          {
+          const BMW_inside = document.getElementById('Bugati');
+          BMW_inside.src= "./Image/BUGATI/bugati-inside.jpg";
+          }
+
+           /*--lamborghini--*/
+
+           function front_lamborghini()
+          {
+          const BMW_front = document.getElementById('lamborghini');
+          BMW_front.src= "./Image/lamborghini/lamborghini-front.jpg";
+          }
+
+          function back_lamborghini()
+          {
+          const BMW_back = document.getElementById('lamborghini');
+          BMW_back.src= "./Image/lamborghini/lamborghini-back.jpg";
+          }
+
+          function inside_lamborghini()
+          {
+          const BMW_inside = document.getElementById('lamborghini');
+          BMW_inside.src= "./Image/lamborghini/lamborghini-inside.jpg";
+          }
+
+           /*--toyota--*/
+
+           function front_toyota()
+          {
+          const BMW_front = document.getElementById('toyota');
+          BMW_front.src= "./Image/toyota/toyota-front.jpeg";
+          }
+
+          function back_toyota()
+          {
+          const BMW_back = document.getElementById('toyota');
+          BMW_back.src= "./Image/toyota/toyota-back.jpg";
+          }
+
+          function inside_toyota()
+          {
+          const BMW_inside = document.getElementById('toyota');
+          BMW_inside.src= "./Image/toyota/toyota-inside.jpg";
+          }
+
+
+
+          
+          
+
 
 
         </script>
