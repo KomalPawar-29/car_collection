@@ -13,44 +13,43 @@
     
 
     </head>
-    <body>
+    <body  class="body-bg-color">
 
      
         
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg" id="home-nav">
         <div class="container-fluid">
           <img src="./Image/sedan.png" class="nav-img">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <img src="./Image/icons/menu.png" class="menu-img"/>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link active nav-menu" aria-current="page" href="#">Home</a>
+                <a class="nav-link active nav-menu" id="home-name" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-menu" href="./categories.html">Categories</a>
+                <a class="nav-link nav-menu" href="./categories.html">Images</a>
               </li>
               <li class="nav-item ">
                 <a class="nav-link nav-menu" href="#">Services</a>
               </li>
-              <li class="nav-item ">
-                <a class="nav-link nav-menu" href="#">About Us</a>
+                <li class="nav-item ">
+                <a class="nav-link nav-menu" href="./payment.html">Payment</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link nav-menu"  href="#">Contact Us</a>
+                <a class="nav-link nav-menu" href="#">About</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link nav-menu"  href="./payment.html">Payment</a>
+                <a class="nav-link nav-menu"  href="#">Contact</a>
               </li>
               
                
               
+               
+              
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-warning" id="search-btn" type="submit">Search</button>
-            </form>
+           
           </div>
         </div>
       </nav>
@@ -68,10 +67,9 @@
 
                 <div class="col-md-6">
 
-                    <p class="promo-title">Car_Collection</p>
-                    <P>Subscribe Easy Tutorials Youtube Channel to watch
-                        more videos on website development, Digital Marketing,
-                        WordPress and Gragphic Designing.
+                  
+                    <P id="baner-title">	
+                      Curated Car Collections Browse Now!
                     </P>
                   
                 </div>
@@ -89,33 +87,272 @@
     <section id="services">
 
       <div class="container text-center">
-        <div class="p-3 mb-2 bg-secondary text-white fs-2">Car_Collection</div>
+        <div class="p-3 mb-2 bg-secondary text-white fs-2 " id="heading-car_collection">Car_Collection</div>
+
         <!------Rolls Royce-->
 
-       <h3>Rolls-Royce</h3>
+      <div class="p-3 mb-2 bg-primary text-white" id="title-rolls-royce">Rolls Royce</div>
+
     
-      </section>
-       
-      
-    
+    </section>
+
+     
       <img src="./Image/rolls royce full-view.jpg" id="rolls-royce" class="rounded md-auto d-block" alt="...">
       <br/>
+    
       <div class="All-btns">
 
         <button type="button" class="btn btn-success view-btn" onclick="Frontview()">Front View</button>
         <button type="button" class="btn btn-danger view-btn" onclick="backview()">Back View</button>
-        <button type="button" class="btn btn-warning view-btn" onclick="inside()">Inside</button>
+        <button type="button" class="btn btn-warning view-btn" onclick="inside()">Interior view</button>
 
       </div>
 
-      <br/>
-
       
-
-
-
           
+
+      <!----BMW section-->
+      <section id="services">
+
+        <div class="container text-center">
+        <div class="p-3 mb-2 bg-primary text-white" id="title-rolls-royce">BMW</div>
+        </section>  
+        
+        <img src="./Image/BMW/bmw full img.jpg" id="BMW" class="rounded md-auto d-block" alt="...">
+      <br/>
+      <div class="All-btns">
+
+        <button type="button" class="btn btn-success view-btn" onclick="front_bmw()">Front View</button>
+        <button type="button" class="btn btn-danger view-btn" onclick=" back_bmw()">Back View</button>
+        <button type="button" class="btn btn-warning view-btn" onclick="inside_bmw ()">Interior view</button>
+
+      </div>
+
+      <!---Bugati- section--->
+
+     
+      <section id="services">
+
+        <div class="container text-center">
+        <div class="p-3 mb-2 bg-primary text-white" id="title-rolls-royce">Bugati</div>
+        </section>  
+        
+        <img src="./Image/BUGATI/bugati-full.jpg" id="Bugati" class="rounded md-auto d-block" alt="...">
+      <br/>
+      <div class="All-btns">
+
+        <button type="button" class="btn btn-success view-btn" onclick="front_bugati()">Front View</button>
+        <button type="button" class="btn btn-danger view-btn" onclick=" back_bugati()">Back View</button>
+        <button type="button" class="btn btn-warning view-btn" onclick="inside_bugati()">Interior view</button>
+
+      </div>
+
+      <!---lamborghini- section--->
+
+     
+      <section id="services">
+
+        <div class="container text-center">
+        <div class="p-3 mb-2 bg-primary text-white" id="title-rolls-royce">Lamborghini</div>
+        </section>  
+        
+        <img src="./Image/lamborghini/lamborghini-full.jpg" id="lamborghini" class="rounded md-auto d-block" alt="...">
+      <br/>
+      <div class="All-btns">
+
+        <button type="button" class="btn btn-success view-btn" onclick="front_lamborghini()">Front View</button>
+        <button type="button" class="btn btn-danger view-btn" onclick=" back_lamborghini()">Back View</button>
+        <button type="button" class="btn btn-warning view-btn" onclick="inside_lamborghini()">Interior view</button>
+
+      </div>
+
+        <!---toyota-section--->
+
+     
+      <section id="services">
+
+        <div class="container text-center">
+        <div class="p-3 mb-2 bg-primary text-white" id="title-rolls-royce">TOYOTA</div>
+        </section>  
+       
+        <img src="./Image/toyota/toyota- full.jpg" id="toyota" class="rounded md-auto d-block" alt="...">
+      <br/>
+      <div class="All-btns">
+
+        <button type="button" class="btn btn-success view-btn" onclick="front_toyota()">Front View</button>
+        <button type="button" class="btn btn-danger view-btn" onclick=" back_toyota()">Back View</button>
+        <button type="button" class="btn btn-warning view-btn" onclick="inside_toyota()">Interior view</button>
+
+      </div>
+
+      <!-----Tata car section -->
+
+
+      <section id="services">
+
+        <div class="container text-center">
+        <div class="p-3 mb-2 bg-primary text-white" id="title-rolls-royce">TATA</div>
+        </section>  
+       
+        <img src="./Image/TATA/tata-full.png" id="tata" class="rounded md-auto d-block" alt="...">
+      <br/>
+      <div class="All-btns">
+
+        <button type="button" class="btn btn-success view-btn" onclick="front_tata()">Front View</button>
+        <button type="button" class="btn btn-danger view-btn" onclick=" back_tata()">Back View</button>
+        <button type="button" class="btn btn-warning view-btn" onclick="inside_tata()">Interior view</button>
+
+      </div>
+
+      <!------Most searched cars section-->
+
+       <div class="p-3 mb-2 bg-danger text-black text-center fs-5 mt-5">The Most Searched Cars</div>
+    
+       <div class="row row-cols-1 row-cols-md-3 g-4 cards">
+        <div class="col">
+          <div class="card h-100 category_card">
+            <img src="./Image/rolls royce full-view.jpg" class="card-img-top cat-bmw-img" alt="download error">
+            <div class="card-body">
+              <h5 class="card-title cat-bmw-text">Rolls Royce</h5>
+              <p class="card-text cat-bmw-text"> Go the extra mile with Rolls Royce and enjoy the driving pleasure.</p>
+              <div class="cat_btn_position">
+              <button type="button cat-bmw-text" class="btn btn-warning" >See More</button>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 category_card">
+            <img src="./Image/BUGATI/bugati-full.jpg" class="card-img-top cat-bmw-img" alt="download error">
+            <div class="card-body">
+              <h5 class="card-title cat-bmw-text">Bugati</h5>
+              <p class="card-text cat-bmw-text"> Go the extra mile with Bugati and enjoy the driving pleasure.</p>
+              <div class="cat_btn_position">
+              <button type="button cat-bmw-text" class="btn btn-danger" >See More</button>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 category_card">
+            <img src="./Image/lamborghini/lamborghini-full.jpg" class="card-img-top cat-bmw-img" alt="download error">
+            <div class="card-body">
+              <h5 class="card-title cat-bmw-text">Lamborghini</h5>
+              <p class="card-text cat-bmw-text">Go the extra mile with Lamborghini and enjoy the driving pleasure.</p>
+              <div class="cat_btn_position">
+              <button type="button cat-bmw-text" class="btn btn-success " >See More</button>
+            </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <br/>
+        
+        <div class="row row-cols-1 row-cols-md-3 g-4 cards">
+          <div class="col">
+            <div class="card h-100 category_card">
+              <img src="./Image/BMW/bmw full img.jpg" class="card-img-top cat-bmw-img" alt="download error">
+              <div class="card-body">
+                <h5 class="card-title cat-bmw-text">BMW</h5>
+                <p class="card-text cat-bmw-text"> Go the extra mile with BMW and enjoy the driving pleasure.</p>
+                <div class="cat_btn_position">
+                <button type="button cat-bmw-text" class="btn btn-warning" >See More</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 category_card">
+              <img src="./Image/toyota/toyota- full.jpg" class="card-img-top cat-bmw-img" alt="download error">
+              <div class="card-body">
+                <h5 class="card-title cat-bmw-text">TOYOTA</h5>
+                <p class="card-text cat-bmw-text"> Go the extra mile with TOYOTA and enjoy the driving pleasure.</p>
+                <div class="cat_btn_position">
+                <button type="button cat-bmw-text" class="btn btn-danger" >See More</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 category_card">
+              <img src="./Images/Tata/tata.jpg" class="card-img-top cat-bmw-img" alt="download error">
+              <div class="card-body">
+                <h5 class="card-title cat-bmw-text">TATA</h5>
+                <p class="card-text cat-bmw-text"> Go the extra mile with TATA and enjoy the driving pleasure.</p>
+                <div class="cat_btn_position">
+                <button type="button cat-bmw-text" class="btn btn-success " >See More</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          </div>
+
+           <!--------Social media section------->
+
+         <section id="social-media">
+
+          <div class="container text-center">
+            <p>FIND US ON SOCIAL MEDIA</p>
+            <div class="social-icons">
+
+              <a href="#"><img src="./Image/icons/facebook (1).png"></a>
+              <a href="#"><img src="./Image/icons/github-sign.png"></a>
+              <a href="#"><img src="./Image/icons/instagram (3).png"></a>
+              <a href="#"><img src="./Image/icons/snapchat.png"></a>
+              <a href="#"><img src="./Image/icons/twitter (2).png"></a>
+              
+
+            </div>
+          </div>
+         </section>
+        
+          <!---footer section-->
+
+          <section id="footer">
+
+            <div class="container">
+  
+              <div class="row">
+  
+                <div class="col-md-4 footer-box">
+                  <img src="./Image/sedan.png">
+                  <P>Subscribe Easy Tutorials Youtube Channel to watch
+                    more videos on website development, Digital Marketing,
+                    WordPress and Gragphic Designing. 
+                    press the bell icon to get notification.
+                </P>
+                </div>
+  
+                <div class="col-md-4 footer-box">
+                  <p><b>CONTACT US</b></p>
+                  <p>
+                    <img src="./Image/icons/google-maps.png" class="direction"/>
+                     Trade Centre,Banglore</p>
+                  <p>
+                    <img src="./Image/icons/telephone-call.png"  class="direction"/>
+                     +9110020210210</p>
+                  <p>
+                    <img src="./Image/icons/gmail (1).png"  class="direction"/> Car_Collection500@gmail.com</p>
+                </div>
+  
+                <div class="col-md-4 footer-box">
+  
+                  <p><b>FAQs</b></p>
+                  <input type="email" class="form-control" placeholder="Any question" id="input"/>
+                  <button type="button" class="btn btn-primary" onclick="messege()">Submit</button>
+                </div>
+              </div>
+              <hr>
+              <p class="copyright">@2023Website Crafted By Car_Collection Team</p>
+            </div>
+           </section>
+
+
+
         <script>
+
+          /* rolls royce */
+
           function backview()
           {
             const backview = document.getElementById('rolls-royce');
@@ -133,6 +370,107 @@
             const inside = document.getElementById('rolls-royce');
             inside.src="./Image/rolls royce seats view.jpeg";
           }
+
+          /* BMW */
+
+          function front_bmw()
+          {
+          const BMW_front = document.getElementById('BMW');
+          BMW_front.src= "./Image/BMW/BMW-front.jpg";
+          }
+
+          function back_bmw()
+          {
+          const BMW_back = document.getElementById('BMW');
+          BMW_back.src= "./Image/BMW/bmw-back.jpg";
+          }
+
+          function inside_bmw()
+          {
+          const BMW_inside = document.getElementById('BMW');
+          BMW_inside.src= "./Image/BMW/bmw-inside.jpg";
+          }
+
+          /*--Bugati--*/
+
+          function front_bugati()
+          {
+          const BMW_front = document.getElementById('Bugati');
+          BMW_front.src= "./Image/BUGATI/bugati-front.jpg";
+          }
+
+          function back_bugati()
+          {
+          const BMW_back = document.getElementById('Bugati');
+          BMW_back.src= "./Image/BUGATI/bugati-back.jpg";
+          }
+
+          function inside_bugati()
+          {
+          const BMW_inside = document.getElementById('Bugati');
+          BMW_inside.src= "./Image/BUGATI/bugati-inside.jpg";
+          }
+
+           /*--lamborghini--*/
+
+           function front_lamborghini()
+          {
+          const BMW_front = document.getElementById('lamborghini');
+          BMW_front.src= "./Image/lamborghini/lamborghini-front.jpg";
+          }
+
+          function back_lamborghini()
+          {
+          const BMW_back = document.getElementById('lamborghini');
+          BMW_back.src= "./Image/lamborghini/lamborghini-back.jpg";
+          }
+
+          function inside_lamborghini()
+          {
+          const BMW_inside = document.getElementById('lamborghini');
+          BMW_inside.src= "./Image/lamborghini/lamborghini-inside.jpg";
+          }
+
+           /*--toyota--*/
+
+           function front_toyota()
+          {
+          const BMW_front = document.getElementById('toyota');
+          BMW_front.src= "./Image/toyota/toyota-front.jpeg";
+          }
+
+          function back_toyota()
+          {
+          const BMW_back = document.getElementById('toyota');
+          BMW_back.src= "./Image/toyota/toyota-back.jpg";
+          }
+
+          function inside_toyota()
+          {
+          const BMW_inside = document.getElementById('toyota');
+          BMW_inside.src= "./Image/toyota/toyota-inside.jpg";
+          }
+
+           /*--TATA--*/
+
+           function front_tata()
+          {
+          const BMW_front = document.getElementById('tata');
+          BMW_front.src= "./Image/tata/tata-front.png";
+          }
+
+          function back_tata()
+          {
+          const BMW_back = document.getElementById('tata');
+          BMW_back.src= "./Image/tata/tata-back.jpg";
+          }
+
+          function inside_tata()
+          {
+          const BMW_inside = document.getElementById('tata');
+          BMW_inside.src= "./Image/tata/tata-interior.jpg";
+          }
+
 
 
         </script>
