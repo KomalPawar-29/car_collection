@@ -1,5 +1,5 @@
 
-/* <<<<<<< HEAD */
+
 body
 {
   background-size:cover;
@@ -9,10 +9,6 @@ body
     background-color:  #bfbfbf
     ;
 }
-/* ======= */
-
-
-/* >>>>>>> eab2009bad91a3a4b36d09eac87b3aa972d1d866 */
 #home-nav
 {
    
@@ -212,7 +208,7 @@ body
 
 #footer
 {
-    background: #a517ba;
+    background:black;
     color: #fff;
 }
 
