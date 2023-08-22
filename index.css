@@ -253,3 +253,14 @@
     padding-bottom: 20px;
     text-align: center;
 }
+
+.footer-quick-link
+{
+    color: #fff;
+    text-decoration: none;
+}
+.footer-quick-link:hover
+{
+    text-decoration: underline;
+    
+}
