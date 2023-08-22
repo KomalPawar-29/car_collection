@@ -1,10 +1,6 @@
 
 
-.body-bg-color
-{
-    background-color:  #bfbfbf
-    ;
-}
+
 #home-nav
 {
    
@@ -16,8 +12,8 @@
 
 .nav-img
 {
-    margin-left: 20px;
-    margin-right: 860px;
+    margin-left: 30px;
+    margin-right: 840px;
     height: 100px;
     width: 150px;
 }
@@ -129,10 +125,12 @@
 
 #title-rolls-royce
 {
+    margin: 0px auto;
     margin-top: 10px;
     display: inline-block;
-    border-radius: 5px;    
-    width: 250px;
+    border-radius: 5px;   
+    text-align: center; 
+    width: 150px;
 }
 
 #heading-car_collection
