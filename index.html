@@ -6,9 +6,86 @@
         </title>
       <link rel="stylesheet" href="index.css"> 
 
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" 
       rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
        crossorigin="anonymous">
+
+       <style>
+         body
+  {
+    background-size:cover;
+  }
+   .nav-content{
+    color: white;
+    font-size: 40px;
+    font: bold;
+  
+  }
+  .cards
+  {
+    padding: 10px;
+  }
+  .All-btns
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.card-contain
+{
+  text-align: center;
+  font-size: 20px;
+}
+.quantities
+{
+  font-size: 20px;
+  margin: 5px;
+  padding:2px
+}
+#number{
+  text-align: center;
+}
+.card-img{
+  padding: 5px;
+}
+.card-img:hover{
+  transform: scaleX(-1);
+}
+.bmwcards{
+  background: none;
+  box-shadow: 0px 0px 10px black;
+}
+.bmwcards:hover{
+  box-shadow: 0px 0px 15px #32329f;
+  transition: 0.5s;
+}
+.bmwbutton{
+    background-color:black;
+    color:white; 
+    display: block;
+    margin: auto;
+  }
+.bmwbutton:hover{
+  background-color: rgb(34, 39, 41);
+   border: 2px solid white; 
+  box-shadow: 0px 0px 5px  white;
+  color: white;
+
+}
+.btn-link
+  {
+    text-decoration: none;
+    color: white;
+  }
+  .btn-link:hover
+  {
+    color: white;
+  }
+
+       </style>
 
     
 
@@ -87,29 +164,61 @@
     <section id="services">
 
       <div class="container text-center">
-        <div class="p-3 mb-2 bg-secondary text-white fs-2 " id="heading-car_collection">Car_Collection</div>
+        <div class="p-3 mb-2 bg-secondary text-white fs-2 " id="heading-car_collection">Cars_Collection</div>
 
         <!------Rolls Royce-->
 
-      <div class="p-3 mb-2 bg-primary text-white" id="title-rolls-royce">Rolls Royce</div>
+      
 
     
     </section>
 
      
-      <img src="./Image/rolls royce full-view.jpg" id="rolls-royce" class="rounded md-auto d-block" alt="...">
-      <br/>
-    
-      <div class="All-btns">
-
-        <button type="button" class="btn btn-success view-btn" onclick="Frontview()">Front View</button>
-        <button type="button" class="btn btn-danger view-btn" onclick="backview()">Back View</button>
-        <button type="button" class="btn btn-warning view-btn" onclick="inside()">Interior view</button>
-
-      </div>
-
+    <body background="./Images/BMW/wallpaper.webp">
+ 
+      <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark"> 
+            
+       </nav>
+       <div class="row row-cols-1 row-cols-md-3 g-4 cards">
+        <div class="col   ">
+          <div class="card bmwcards">
+            <div class="p-3 mb-2 bg-primary text-white" id="title-rolls-royce">Rolls Royce</div>
+            <img src="./Image/rolls royce full-view.jpg" class="card-img-top card-img"id="rolls-royce" alt="Download error">
+            <div class="card-body">
       
+              <div class="All-btns">
+                <button type="button" class="btn btn-success view-btn" onclick="Frontview()">Front View</button>
+                <button type="button" class="btn btn-danger view-btn" onclick="backview()">Back View</button>
+                <button type="button" class="btn btn-warning view-btn" onclick="inside()">Interior view</button>
+              </div>
+             
+        
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card bmwcards">
+            <div class="p-3 mb-2 bg-primary text-white" id="title-rolls-royce">BMW</div>
+            <img src="./Image/BMW/bmw full img.jpg" class="card-img-top card-img"id="BMW" alt="Download error">
+            <div class="card-body">
+        
+              <div class="All-btns">
+    
+                <button type="button" class="btn btn-success view-btn" onclick="front_bmw()">Front View</button>
+                <button type="button" class="btn btn-danger view-btn" onclick=" back_bmw()">Back View</button>
+                <button type="button" class="btn btn-warning view-btn" onclick="inside_bmw ()">Interior view</button>
+              </div>
+            
+        
+            </div>
+          </div>
+        </div>
+        <div class="col   ">
+          <div class="card bmwcards">
+            <div class="p-3 mb-2 bg-primary text-white" id="title-rolls-royce">BUGATI</div>
+            <img src="./Image/BUGATI/bugati-full.jpg" class="card-img-top card-img"id="Bugati" alt="Download error">
           
+<<<<<<< HEAD
     
       <!----BMW section-->
       <section id="services">
@@ -117,92 +226,80 @@
         <div class="container text-center">
         <div class="p-3 mb-2 bg-primary text-white" id="title-rolls-royce">BMW</div>
         </section>  
+=======
+             
+              <div class="All-btns">
+    
+                <button type="button" class="btn btn-success view-btn" onclick="front_bugati()">Front View</button>
+                <button type="button" class="btn btn-danger view-btn" onclick=" back_bugati()">Back View</button>
+                <button type="button" class="btn btn-warning view-btn" onclick="inside_bugati()">Interior view</button>
+              </div>
+            
+>>>>>>> eab2009bad91a3a4b36d09eac87b3aa972d1d866
         
-        <img src="./Image/BMW/bmw full img.jpg" id="BMW" class="rounded md-auto d-block" alt="...">
-      <br/>
-      <div class="All-btns">
-
-        <button type="button" class="btn btn-success view-btn" onclick="front_bmw()">Front View</button>
-        <button type="button" class="btn btn-danger view-btn" onclick=" back_bmw()">Back View</button>
-        <button type="button" class="btn btn-warning view-btn" onclick="inside_bmw ()">Interior view</button>
-
-      </div>
-
-      <!---Bugati- section--->
-
-     
-      <section id="services">
-
-        <div class="container text-center">
-        <div class="p-3 mb-2 bg-primary text-white" id="title-rolls-royce">Bugati</div>
-        </section>  
-        
-        <img src="./Image/BUGATI/bugati-full.jpg" id="Bugati" class="rounded md-auto d-block" alt="...">
-      <br/>
-      <div class="All-btns">
-
-        <button type="button" class="btn btn-success view-btn" onclick="front_bugati()">Front View</button>
-        <button type="button" class="btn btn-danger view-btn" onclick=" back_bugati()">Back View</button>
-        <button type="button" class="btn btn-warning view-btn" onclick="inside_bugati()">Interior view</button>
-
-      </div>
-
-      <!---lamborghini- section--->
-
-     
-      <section id="services">
-
-        <div class="container text-center">
-        <div class="p-3 mb-2 bg-primary text-white" id="title-rolls-royce">Lamborghini</div>
-        </section>  
-        
-        <img src="./Image/lamborghini/lamborghini-full.jpg" id="lamborghini" class="rounded md-auto d-block" alt="...">
-      <br/>
-      <div class="All-btns">
-
-        <button type="button" class="btn btn-success view-btn" onclick="front_lamborghini()">Front View</button>
-        <button type="button" class="btn btn-danger view-btn" onclick=" back_lamborghini()">Back View</button>
-        <button type="button" class="btn btn-warning view-btn" onclick="inside_lamborghini()">Interior view</button>
-
-      </div>
-
-        <!---toyota-section--->
-
-     
-      <section id="services">
-
-        <div class="container text-center">
-        <div class="p-3 mb-2 bg-primary text-white" id="title-rolls-royce">TOYOTA</div>
-        </section>  
+            </div>
+          </div>
+        </div>
        
-        <img src="./Image/toyota/toyota- full.jpg" id="toyota" class="rounded md-auto d-block" alt="...">
-      <br/>
-      <div class="All-btns">
-
-        <button type="button" class="btn btn-success view-btn" onclick="front_toyota()">Front View</button>
-        <button type="button" class="btn btn-danger view-btn" onclick=" back_toyota()">Back View</button>
-        <button type="button" class="btn btn-warning view-btn" onclick="inside_toyota()">Interior view</button>
-
       </div>
 
-      <!-----Tata car section -->
-
-
-      <section id="services">
-
-        <div class="container text-center">
-        <div class="p-3 mb-2 bg-primary text-white" id="title-rolls-royce">TATA</div>
-        </section>  
+      <div class="row row-cols-1 row-cols-md-3 g-4 cards">
+        <div class="col   ">
+          <div class="card bmwcards">
+            <div class="p-3 mb-2 bg-primary text-white" id="title-rolls-royce">TATA</div>
+            <img src="./Image/TATA/tata-full.png" class="card-img-top card-img"id="tata" alt="Download error">
+            <div class="card-body">
+      
+              <div class="All-btns">
+    
+                <button type="button" class="btn btn-success view-btn" onclick="front_tata()">Front View</button>
+                <button type="button" class="btn btn-danger view-btn" onclick=" back_tata()">Back View</button>
+                <button type="button" class="btn btn-warning view-btn" onclick="inside_tata()">Interior view</button>
+              </div>
+             
+        
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card bmwcards">
+            <div class="p-3 mb-2 bg-primary text-white" id="title-rolls-royce">Lamborghini</div>
+            <img src="./Image/lamborghini/lamborghini-full.jpg" class="card-img-top card-img"id="lamborghini" alt="Download error">
+            <div class="card-body">
+        
+              <div class="All-btns">
+    
+                <button type="button" class="btn btn-success view-btn" onclick="front_lamborghini()">Front View</button>
+                <button type="button" class="btn btn-danger view-btn" onclick=" back_lamborghini()">Back View</button>
+                <button type="button" class="btn btn-warning view-btn" onclick="inside_lamborghini()">Interior view</button>
+              </div>
+            
+        
+            </div>
+          </div>
+        </div>
+        <div class="col   ">
+          <div class="card bmwcards">
+            <div class="p-3 mb-2 bg-primary text-white" id="title-rolls-royce">TOYOTA</div>
+            <img src="./Image/toyota/toyota- full.jpg" class="card-img-top card-img"id="toyota" alt="Download error">
+          
+             
+              <div class="All-btns">
+    
+                <button type="button" class="btn btn-success view-btn" onclick="front_toyota()">Front View</button>
+                <button type="button" class="btn btn-danger view-btn" onclick=" back_toyota()">Back View</button>
+                <button type="button" class="btn btn-warning view-btn" onclick="inside_toyota()">Interior view</button>
+              </div>
+            
+        
+            </div>
+          </div>
+        </div>
        
-        <img src="./Image/TATA/tata-full.png" id="tata" class="rounded md-auto d-block" alt="...">
-      <br/>
-      <div class="All-btns">
-
-        <button type="button" class="btn btn-success view-btn" onclick="front_tata()">Front View</button>
-        <button type="button" class="btn btn-danger view-btn" onclick=" back_tata()">Back View</button>
-        <button type="button" class="btn btn-warning view-btn" onclick="inside_tata()">Interior view</button>
-
       </div>
+      
+       
+        
 
       <!------Most searched cars section-->
 
@@ -216,7 +313,9 @@
               <h5 class="card-title cat-bmw-text">Rolls Royce</h5>
               <p class="card-text cat-bmw-text"> Go the extra mile with Rolls Royce and enjoy the driving pleasure.</p>
               <div class="cat_btn_position">
-              <button type="button cat-bmw-text" class="btn btn-warning" >See More</button>
+              <a href="./brands/rolls-royce.html">
+                <button type="button cat-bmw-text" class="btn btn-warning" >See More</button>
+              </a>  
             </div>
             </div>
           </div>
@@ -340,7 +439,7 @@
   
                   <p><b>FAQs</b></p>
                   <input type="email" class="form-control" placeholder="Any question" id="input"/>
-                  <button type="button" class="btn btn-primary" onclick="messege()">Submit</button>
+                  <button type="button" class="btn btn-primary" onclick=" click()">Submit</button>
                 </div>
               </div>
               <hr>
@@ -363,7 +462,7 @@
           function Frontview()
           {
             const Frontview = document.getElementById('rolls-royce');
-            Frontview.src="./Image/rolls royce full-view.jpg";
+            Frontview.src="./Image/rolls-royce-black_.avif";
           }
 
           function inside()
@@ -471,6 +570,10 @@
           const BMW_inside = document.getElementById('tata');
           BMW_inside.src= "./Image/tata/tata-interior.jpg";
           }
+
+          /*---submit section----*/
+
+          
 
 
 
