@@ -20,7 +20,7 @@
 
 #home-name
 {
-    color: white;
+    color:white;
 }
 
 #home-name:hover
@@ -31,12 +31,12 @@
 {
     margin:0px;
     color: white;
-    
-  }
+}
+
 
 .container-fluid
 {
-    background-color:#7b1798;
+    background-color:#7b3290;
     margin: -8px;
 }
 #collection-img
@@ -56,21 +56,22 @@
   height: 20px;
 }
 
+.home-name:hover
+{
+    color: white;
+    text-decoration: underline;
+}
+
 /*banner section*/
 
 #banner
 {
     background-color:  #595959;
-    color: #fff;
+    color: black;
     padding-top: 5%;
 }
 
-.promo-title
-{
-    font-size: 40px;
-    font-weight: 600;
-    margin-top: 50px;
-}
+
 
 #baner-title
 {
@@ -146,17 +147,13 @@
 
 .nav-menu:hover
 {
-    text-decoration: underline;
+   color: white;
+
     
 }
 
-/*---search section--*/
 
-#search-btn
-{
-    border: 1px solid black;
-    color: black;
-}
+
 
 /*----Image section----*/
 
@@ -175,7 +172,7 @@
 
 #social-media
 {
-    background: #f8f9fa;
+    background-image: url("./Images/BMW/wallpaper.webp");
     padding: 60px 0px ;
 }
 
@@ -256,11 +253,11 @@
 
 .footer-quick-link
 {
-    color: #fff;
+    color:black;
     text-decoration: none;
 }
 .footer-quick-link:hover
 {
     text-decoration: underline;
-    
+    color: #fff;
 }
