@@ -1,6 +1,14 @@
 
 
-
+body
+{
+  background-size:cover;
+}
+.body-bg-color
+{
+    background-color:  #bfbfbf
+    ;
+}
 #home-nav
 {
    
@@ -197,7 +205,7 @@
 
 #footer
 {
-    background: #a517ba;
+    background:black;
     color: #fff;
 }
 
