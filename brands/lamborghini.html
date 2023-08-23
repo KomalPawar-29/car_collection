@@ -52,6 +52,7 @@
 .bmwcards{
   background: none;
   box-shadow: 0px 0px 10px black;
+  overflow: hidden;
 }
 .bmwcards:hover{
   box-shadow: 0px 0px 15px #32329f;
@@ -71,8 +72,31 @@
 
 }
 
+.home-btn
+  {
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+   
+  }
+  .home-btn1
+  {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 2px;
+  }
+
+
+.size
+{
+  height: 400px;
+  width: 168;
+}
+
 </style>
-<body background="../Image/BMW/wallpaper.webp">
+<body background="../Images/BMW/wallpaper.webp">
  
   <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark"> 
         <marquee class="nav-content"> WEL - COME TO THE LAMBORGHINI CAR COLLECTION  !!!!</marquee>
@@ -80,23 +104,12 @@
    <div class="row row-cols-1 row-cols-md-3 g-4 cards">
     <div class="col   ">
       <div class="card bmwcards">
-        <img src="../Image/Lamborghini/Avendator.jpg" class="card-img-top card-img"id="BMW" alt="Download error">
+        <img src="../Image/Lamborghini/Avendator.jpg"class="size"class="card-img-top card-img"id="BMW" alt="Download error">
         <div class="card-body">
           <h5 class="card-title card-contain"><u>Lamborghini Avendator CAR</u></h5>
-          <p class="card-text card-contain">The BMW X2 is a subcompact luxury crossover SUV produced by BMW.</p>
+          <p class="card-text card-contain">The LAMBORGHINI Avendator is a most luxurious Car in the world.</p>
           <p class="card-contain"><b>Price </b>: 2,00,00,000 /-</p>
-          <div class="quantity quantities ">
-            <form>
-              <span > <b> Total Quantity : </b> </span>
-             <span class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">  -</span>
-               <input type="number" id="number" class="qty" value="1" />
-             <span class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</span>
-            </form>
-          </div>
-          <div class="quantities">
-            <span class="card-contain "><b>Total Ammount : </b></span>
-            <input type="total" id="total" value="2,00,00,000" onclick="ammount()"/>
-          </div>
+  
          
           <div class="All-btns">
 
@@ -114,23 +127,11 @@
     </div>
     <div class="col   ">
       <div class="card bmwcards">
-        <img src="../Image/Lamborghini/Urus-front.jpg" class="card-img-top card-img"id="BMW1" alt="Download error">
+        <img src="../Image/Lamborghini/Urus-front.jpg" class="size" class="card-img-top card-img"id="BMW1" alt="Download error">
         <div class="card-body">
           <h5 class="card-title card-contain"><u>Lamborghini Urus CAR</u></h5>
-          <p class="card-text card-contain">The BMW X2 is a subcompact luxury crossover SUV produced by BMW.</p>
+          <p class="card-text card-contain">The LAMBORGHINI Urus is a most luxurious Car in the world.</p>
           <p class="card-contain"><b>Price </b>: 2,00,00,000 /-</p>
-          <div class="quantity quantities ">
-            <form>
-              <span > <b> Total Quantity : </b> </span>
-             <span class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">  -</span>
-               <input type="number" id="number" class="qty" value="1" />
-             <span class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</span>
-            </form>
-          </div>
-          <div class="quantities">
-            <span class="card-contain "><b>Total Ammount : </b></span>
-            <input type="total" id="total" value="2,00,00,000" onclick="ammount()"/>
-          </div>
          
           <div class="All-btns">
 
@@ -148,23 +149,12 @@
     </div>
     <div class="col   ">
       <div class="card bmwcards">
-        <img src="../Image/Lamborghini/diablo-front.jpg" class="card-img-top card-img"id="BMW2" alt="Download error">
+        <img src="../Image/Lamborghini/diablo-front.jpg" class="size" class="card-img-top card-img"id="BMW2" alt="Download error">
         <div class="card-body">
           <h5 class="card-title card-contain"><u>LAMBORGHINI DIABLO CAR</u></h5>
-          <p class="card-text card-contain">The BMW X2 is a subcompact luxury crossover SUV produced by BMW.</p>
+          <p class="card-text card-contain">The LAMBORGHINI Diablo is a most luxurious Car in the world.</p>
           <p class="card-contain"><b>Price </b>: 2,00,00,000 /-</p>
-          <div class="quantity quantities ">
-            <form>
-              <span > <b> Total Quantity : </b> </span>
-             <span class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">  -</span>
-               <input type="number" id="number" class="qty" value="1" />
-             <span class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</span>
-            </form>
-          </div>
-          <div class="quantities">
-            <span class="card-contain "><b>Total Ammount : </b></span>
-            <input type="total" id="total" value="2,00,00,000" onclick="ammount()"/>
-          </div>
+          
          
           <div class="All-btns">
 
@@ -185,23 +175,11 @@
   <div class="row row-cols-1 row-cols-md-3 g-4 cards">
     <div class="col   ">
       <div class="card bmwcards">
-        <img src="../Image/Lamborghini/gallardo-front.jpg" class="card-img-top card-img"id="BMW3" alt="Download error">
+        <img src="../Image/Lamborghini/gallardo-front.jpg" class="size" class="card-img-top card-img"id="BMW3" alt="Download error">
         <div class="card-body">
           <h5 class="card-title card-contain"><u>LAMBORGHINI GALLARDO CAR</u></h5>
-          <p class="card-text card-contain">The BMW X2 is a subcompact luxury crossover SUV produced by BMW.</p>
+          <p class="card-text card-contain">The LAMBORGHINI Gallardo is a most luxurious Car in the world.</p>
           <p class="card-contain"><b>Price </b>: 2,00,00,000 /-</p>
-          <div class="quantity quantities ">
-            <form>
-              <span > <b> Total Quantity : </b> </span>
-             <span class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">  -</span>
-               <input type="number" id="number" class="qty" value="1" />
-             <span class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</span>
-            </form>
-          </div>
-          <div class="quantities">
-            <span class="card-contain "><b>Total Ammount : </b></span>
-            <input type="total" id="total" value="2,00,00,000" onclick="ammount()"/>
-          </div>
          
           <div class="All-btns">
 
@@ -219,23 +197,11 @@
     </div>
     <div class="col   ">
       <div class="card bmwcards">
-        <img src="../Image/lamborghini/Huracan -front.jpg" class="card-img-top card-img"id="BMW4" alt="Download error">
+        <img src="../Image/lamborghini/Huracan -front.jpg"class="size" class="card-img-top card-img"id="BMW4" alt="Download error">
         <div class="card-body">
           <h5 class="card-title card-contain"><u>LAMBORGHINI HURACAN CAR</u></h5>
-          <p class="card-text card-contain">The BMW X5 is a subcompact luxury crossover SUV produced by BMW.</p>
+          <p class="card-text card-contain">The LAMBORGHINI Huracan is a most luxurious Car in the world.</p>
           <p class="card-contain"><b>Price </b>: 2,00,00,000 /-</p>
-          <div class="quantity quantities ">
-            <form>
-              <span > <b> Total Quantity : </b> </span>
-             <span class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">  -</span>
-               <input type="number" id="number" class="qty" value="1" />
-             <span class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</span>
-            </form>
-          </div>
-          <div class="quantities">
-            <span class="card-contain "><b>Total Ammount : </b></span>
-            <input type="total" id="total" value="2,00,00,000" onclick="ammount()"/>
-          </div>
          
           <div class="All-btns">
 
@@ -253,23 +219,11 @@
     </div>
     <div class="col   ">
       <div class="card bmwcards">
-        <img src="../Image/lamborghini/Murcielago-front.jpg" class="card-img-top card-img"id="BMW5" alt="Download error">
+        <img src="../Image/lamborghini/Murcielago-front.jpg" class="size" class="card-img-top card-img"id="BMW5" alt="Download error">
         <div class="card-body">
           <h5 class="card-title card-contain"><u>LAMBORGHINI MURCIELANGO CAR</u></h5>
-          <p class="card-text card-contain">The BMW MX5 is a subcompact luxury crossover SUV produced by BMW.</p>
+          <p class="card-text card-contain">The LAMBORGHINI Murcielago is a most luxurious Car in the world.</p>
           <p class="card-contain"><b>Price </b>: 2,00,00,000 /-</p>
-          <div class="quantity quantities ">
-            <form>
-              <span > <b> Total Quantity : </b> </span>
-             <span class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">  -</span>
-               <input type="number" id="number" class="qty" value="1" />
-             <span class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</span>
-            </form>
-          </div>
-          <div class="quantities">
-            <span class="card-contain "><b>Total Ammount : </b></span>
-            <input type="total" id="total" value="2,00,00,000" onclick="ammount()"/>
-          </div>
          
           <div class="All-btns">
 
@@ -423,5 +377,7 @@ function decreaseValue() {
 }
 
   </script>
+  <button type="button" class="btn btn-dark home-btn"><a href="../index.html"class=" home-btn1"> Back To Home</a></button>
+
 </body>
 </html>
