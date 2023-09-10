@@ -11,6 +11,8 @@
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" 
       rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
        crossorigin="anonymous">
+       
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
 
        <style>
          body
@@ -97,44 +99,39 @@
     <body  class="body-bg-color"background="./Images/BMW/wallpaper.webp">
 
      
-        
-      <nav class="navbar navbar-expand-lg" id="home-nav">
-        <div class="container-fluid">
-          <img src="./Image/sedan.png" class="nav-img">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <img src="./Image/icons/menu.png" class="menu-img"/>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active nav-menu navbar-content" id="home-name" aria-current="page" href="./index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link nav-menu navbar-content" href="./categories.html">Brands</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link nav-menu navbar-content" href="./service.html">Services</a>
-              </li>
-                <li class="nav-item ">
-                <a class="nav-link nav-menu navbar-content" href="./payment.html">Payment</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link nav-menu navbar-content" href="./about.html">About</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link nav-menu navbar-content"  href="./contact.html">Contact</a>
-              </li>
+      <section id="nav-bar">
+
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
               
-               
-              
-               
-              
-            </ul>
-           
-          </div>
-        </div>
-      </nav>
-      
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="./Image/icons/menu.png" class="menu-img"/>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <span style="color: white; font-size: 25px;font-family:sans-serif;">Car Collection</span>
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./categories.html">Categories</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./service.html">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./about.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+
+    </section>
 
  
 
@@ -153,8 +150,15 @@
                       Curated Car Collections Browse Now!
                     </P>
                     <p class="banner-content">
-                      Assorted Collection of Cars ... Not Sure, Which car to buy? Let us help you find the dream car.<br>
-                      Car designers are just going to have to come up with an automobile that outlasts the payments.
+
+                      Welcome to our remarkable car collection, where automotive passion meets history and engineering
+                       excellence. Our carefully curated assortment of automobiles spans decades, showcasing the evolution
+                        of automotive design, technology, and craftsmanship. Whether you're a seasoned car enthusiast or 
+                        simply appreciate the beauty of these iconic machines,
+                       our collection offers a journey through time on four wheels.
+
+                      Car-Collection is your online destination for exploring a curated selection of exquisite automobiles from classic to contemporary,
+                      <br/> offering enthusiasts a virtual showroom of automotive excellence.
                   
                     </p>
                  
@@ -230,9 +234,9 @@
         
               <div class="All-btns">
     
-                <button type="button" class="btn btn-success view-btn" onclick="front_bmw()">Front View</button>
-                <button type="button" class="btn btn-danger view-btn" onclick=" back_bmw()">Back View</button>
-                <button type="button" class="btn btn-warning view-btn" onclick="inside_bmw ()">Interior view</button>
+                <button type="button" class="btn btn-success view-btn" onclick="front_bugati()">Front View</button>
+                <button type="button" class="btn btn-danger view-btn" onclick=" back_bugati()">Back View</button>
+                <button type="button" class="btn btn-warning view-btn" onclick="inside_bugati ()">Interior view</button>
               </div>
             
         
@@ -300,6 +304,121 @@
         </div>
        
       </div>
+
+            <!---Highlight section-->
+           
+             <br/><br/>
+            <div style="font-size: xx-large;font-family: fantasy; text-align: center;">
+             Highlights:-
+            </div>
+            <br/>
+
+            <div class="container text-center">
+              <div class="row">
+                <div class="col">
+                  <div class="card border border-primary" style="width: 18rem;">
+                    <img src="./Image/BUGATI/bugati-full.jpg" class="card-img-top p-1" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Bugati</h5>
+                      <p class="card-text">
+                        Bugatti is a French luxury car brand that was founded in 1909 by Ettore Bugatti. The brand has a long history 
+                        of making some of the most exclusive and powerful sports cars in the world.
+                      </p>
+                      <a href="./brands/bugatti.html" class="btn btn-primary">More Info</a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col">
+                  <div class="card border border-primary" style="width: 18rem;">
+                    <img src="./Image/rolls royce full-view.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Roll-Royce</h5>
+                      <p class="card-text">
+                        Rolls Royce is a British luxury car brand that was founded in 1904 by Charles Rolls and Henry Royce. The company is known worldwide for
+                         manufacturing some of the most luxurious, high-quality, and exclusive cars.
+                      </p>
+                      <a href="./brands/rolls-royce.html" class="btn btn-primary">More Info</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card border border-primary" style="width: 18rem;">
+                    <img src="./Image/BMW/bmw full img.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">BMW</h5>
+                      <p class="card-text">
+                        BMW is a German luxury car manufacturer that was founded in 1916 as a manufacturer of aircraft engines. Today, the company produces a wide range of cars, motorcycles, and engines,
+                         and is known for its premium quality, luxury, and high-performance vehicles.
+                      </p>
+                      <a href="./brands/BMW.html" class="btn btn-primary">More Info</a>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            <br/><br/>
+
+            <div class="container text-center">
+              <div class="row">
+                <div class="col">
+                  <div class="card border border-primary" style="width: 18rem;">
+                    <img src="./Image/TATA/tata-full.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">TATA</h5>
+                      <p class="card-text">
+                        Tata Motors is an Indian automaker that produces cars, trucks, buses, and
+                         commercial vehicles. The company was founded in 1945 and has grown to
+                         become one of the largest car manufacturers in India and across the world.
+                      </p>
+                      <a href="./brands/TATA.html" class="btn btn-primary">More Info</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card border border-primary" style="width: 18rem;">
+                    <img src="./Image/lamborghini/lamborghini-full.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Lamborghini</h5>
+                      <p class="card-text"> 
+                        Lamborghini is a brand of luxury sports cars that originated in Italy. The company was founded in 1963 by Ferruccio Lamborghini, a wealthy
+                         businessman who was dissatisfied with the quality of available sports cars. 
+                      </p>
+                      <a href="./brands/lamborghini.html" class="btn btn-primary">More Info</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card border border-primary" style="width: 18rem;">
+                    <img src="./Image/toyota/toyota- full.jpg." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Toyota</h5>
+                      <p class="card-text">
+                        Toyota is a Japanese automaker that produces a wide range of vehicles,
+                         from small economy cars to large trucks and SUVs. The company was founded in 1937 and has grown
+                         to become one of the largest and most popular car brands in the world.
+                      </p>
+                      <a href="./brands/toyota.html" class="btn btn-primary">More Info</a>
+                      
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            <br/><br/>
+
+            <!--Client Feedback-->
+
+
+
+
+             
+           
+
+
+      
       
        
         
